@@ -7,25 +7,20 @@
             <li class="nav-item">
                 <a class="nav-link" href="/saved">Saved Articles</a>
             </li>
-            <li class="nav-item">
-                <button type="button" class="btn btn-success btn-block" style="width: 100%;" id="scrape-articles">Scrape
-                    Articles</button>
-            </li>
-            <li class="nav-item">
-                <button type="button" class="btn btn-danger btn-block" style="width: 100%;" id="clear-articles">Clear
-                    Articles</button>
-            </li>
         </ul>
     </div>
 </nav>
 <p>&nbsp;</p>
 <div class="container article-container" style="background-color: whitesmoke; opacity: .9; height: 500px;">
     <h1 class="text-center">NYT News Scraper</h1>
-    <div id="article-section">
+    <hr>
+    <h3 class="text-center">Saved Articles</h3>
+    <div id="saved-article-section">
 
     </div>
 </div>
-<div class="modal fade" id="article-notes" tabindex="-1" role="dialog" aria-labelledby="article-notes" aria-hidden="true">
+
+<div class="modal fade" id="saved-article-notes" tabindex="-1" role="dialog" aria-labelledby="saved-article-notes" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -34,16 +29,16 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body article-notes-div">
+            <div class="modal-body saved-article-notes-div">
             </div>
             <div class="modal-body add-note-div">
                 <form>
                     <div class="form-group">
                         <label for="adding-notes">Add Note</label>
-                        <textarea class="form-control" id="add-note-textarea" rows="3"></textarea>
+                        <textarea class="form-control" id="saved-add-note-textarea" rows="3"></textarea>
                     </div>
                 </form>
-                <button class="btn btn-success" id="add-note-button"> Add Note </button>
+                <button class="btn btn-success" id="saved-add-note-button"> Add Note </button>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -57,4 +52,4 @@
     crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-<script src="./javascript/index.js"></script>
+<script src="./js/saved.js"></script>

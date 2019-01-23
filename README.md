@@ -3,7 +3,7 @@
 ## Heroku Link https://scrape-dat-news.herokuapp.com/ ##
 
 ## Overview ## 
-This is a full-stack app which scrapes the New York Times for artices and displays them on our page.
+This is a full-stack app which scrapes the Associated Press News for artices and displays them on our page.
 
 ## NPM's Used ## 
 * Axios
